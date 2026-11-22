@@ -2,3 +2,36 @@ baseURL = 'https://suhanaakhter.github.io/'
 locale = 'en-us'
 title = 'Suhana Akhter'
 theme = 'typo'
+
+[params]
+description = "Suhana Akhter's personal website"
+theme = 'auto'
+colorPalette = 'default'
+
+homeIntroTitle = 'Hi, I am Suhana!'
+homeIntroContent = """
+Write a short intro about yourself here. Markdown works.
+"""
+
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/SuhanaAkhter"
+
+[markup]
+[markup.highlight]
+noClasses = false
