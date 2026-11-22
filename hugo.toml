@@ -1,0 +1,4 @@
+baseURL = 'https://suhanaakhter.github.io/'
+locale = 'en-us'
+title = 'Suhana Akhter'
+theme = 'typo'
