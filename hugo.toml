@@ -4,13 +4,25 @@ title = 'Suhana Akhter'
 theme = 'typo'
 
 [params]
-description = "Suhana Akhter's personal website"
+description = "Suhana Akhter's Personal Website"
 theme = 'auto'
 colorPalette = 'default'
 
-homeIntroTitle = 'Hi, I am Suhana!'
+homeIntroTitle = ''
 homeIntroContent = """
-Write a short intro about yourself here. Markdown works.
+Hey, I'm a first year student in the <b>Engineering Science + PEY co-op</b> program at the <b>University of Toronto</b> living in Toronto. 
+
+I've had a longstanding passion for math, which I first purused through courses for high school students at Carleton University, which focused on analytic geometry, 
+complex numbers, and competition practice. Later, I completed my <b>IB diploma</b>, taking 4 higher level (HL) courses, including mathematics. This shaped my extended essay,  
+<a href = "/files/extended-essay.pdf" target="_blank" rel="noopener"><b>The Differential Calculus Behind Activation Functions in Neural Networks</b></a>.
+
+Throughout COVID, I began my journey in software programming with self-directed courses in front-end web development. More recently, I've taken several high school and 
+university courses in Python, which I am applying in my work with <b>Robotics for Space Exploration (RSX)</b>, where I am developing ML-based software for a 
+<a href = "https://github.com/rsx-utoronto/rsx_arm" target="_blank" rel="noopener">robotic arm</a>.
+
+On the side, I spent 8 years in karate, achieving my <b>second degree black belt</b> and working as a sensei. 
+Running is one of my favourite passtimes, and having completed a <b>half-marathon</b>, I am now training for a full marathon, 
+so you'll often find me on trails by the waterfront!
 """
 
 homeCollectionTitle = 'Posts'
@@ -21,17 +33,28 @@ name = "home"
 url = "/"
 
 [[params.menu]]
-name = "posts"
-url = "/posts"
+name = "writing"
+url = "/writing"
 
 [[params.menu]]
-name = "about"
-url = "/about"
+name = "resume"
+url = "/files/resume.pdf"
+newTab = true
 
 [[params.social]]
 name = "github"
 url = "https://github.com/SuhanaAkhter"
 
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/suhana-akhter"
+
+[params.breadcrumbs]
+enabled = false
+
 [markup]
 [markup.highlight]
 noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true
