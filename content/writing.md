@@ -1,10 +1,15 @@
 +++
 draft = false
+title = "Writing"
 +++
 
 A selection of my personal writing is listed below.
 
 <style>
+.single-intro-container {
+  display: none;
+}
+
 .entry {
   border: 1px solid rgba(128, 128, 128, 0.35);
   border-radius: 8px;

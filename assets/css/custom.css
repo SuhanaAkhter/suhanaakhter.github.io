@@ -1,0 +1,7 @@
+:root {
+  --header-bottom-gap: var(--header-menu-top-gap);
+}
+
+.header-menu p {
+  margin-bottom: 0;
+}
